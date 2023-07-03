@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Aria Ursa",
+        "stars": 5,
+        "img": "img-aria-ursa.jpg",
+        "testimonial": "This book was exactly the wake up call I needed..."
+    },
+    {
+        "name": "Ignacio Zamora",
+        "stars": 5,
+        "img": "img-ignation-zamora.jpg",
+
+        "testimonial": "I laughed and almost cried a bit at points, due to the very well written and deep life experience anecdotes"
+
+    },
+    {
+        "name": "Jessica Foster",
+        "stars": 5,
+        "img": "img-jessica-foster.jpg",
+        
+        "testimonial": "I enjoyed the blunt delivery and allusions..."
+
+    },
+    {
+        "name": "Ron",
+        "stars": 5,
+        "img": "img-ron.jpg",
+
+        "testimonial": "Everyone should read this book. Its got some language, but the message is excellent."
+
+    }
+]

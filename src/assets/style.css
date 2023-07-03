@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@layer base {
+    @font-face {
+        font-family: "Editorial old italic";
+        src: url(../assets/fonts/ppeditorialold-italic.otf) format(opentype);
+    }
+    @font-face {
+        font-family: "Editorial old";
+        src: url(../assets/fonts/ppeditorialold-regular.otf) format(opentype);
+    }
+}
+@layer components {
+    .hero-section {
+        @apply bg-primary-orange overflow-x-hidden md:p-5 md:pb-0 2xl:pt-20 2xl:px-10;
+    }
+    .hero-section .heading {
+        @apply text-secondary-slate-gray font-sans font-bold text-9xl md:text-[14rem] lg:text-[13rem] xl:text-[15rem] 2xl:text-[17rem];
+    }
+    .hero-section .dot {
+        @apply p-5 rounded-full ml-3 bg-white inline-flex 2xl:p-8;
+    }
+    .hero-section .subheading {
+        @apply p-10 text-white text-sm md:text-xs 2xl:text-sm;
+    }
+    .primary-btn {
+        @apply bg-white font-serif text-secondary-slate-gray font-bold uppercase px-10 py-5 text-center;
+    }
+    .hero-section .logos {
+        @apply flex space-x-4 md:flex-wrap justify-around px-10 py-4 md:p-0 md:justify-start md:space-y-3 md:items-baseline 2xl:space-x-5;
+    }
+    .hero-section .logos img {
+        @apply h-[15px] md:h-[20px] 2xl:h-[25px];
+    }
+    .hero-section .details {
+        @apply md:w-1/2 xl:w-1/3 xl:ml-20;
+    }
+    .hero-section .companies {
+        @apply md:w-1/2 lg:w-full lg:mb-5;
+    }
+    .hero-section .title {
+        @apply text-dark-gray text-xs font-bold;
+    }
+    .hero-section .author {
+        @apply md:relative md:-mt-[60%] md:translate-x-[25%] lg:w-[70%] lg:translate-x-[70%] lg:-mt-[70%] xl:-mt-[58%] xl:w-[65%] 2xl:-mt-[55%] 2xl:translate-x-[68%];
+    }
+    .proof-section {
+        @apply bg-secondary-slate-gray text-white;
+    }
+    .proof-section .introduction {
+        @apply py-20 px-10 lg:px-20 2xl:px-40 2xl:py-32;
+    }
+    .proof-section .introduction .heading {
+        @apply text-4xl  font-bold md:text-6xl lg:w-2/3 2xl:text-[5rem];
+    }
+    .proof-section .introduction .content {
+        @apply mt-20 md:w-1/2 md:ml-auto md:mr-20 lg:w-[40%];
+    }
+    .introduction .content p {
+        @apply mb-5 text-sm md:text-xs 2xl:text-base;
+    }
+    .scroll-text {
+        @apply text-9xl whitespace-nowrap font-bold text-dark-gray 2xl:text-[16rem];
+    }
+    .sliding-text-container {
+        @apply relative;
+    }
+    .img-float .img-book {
+        @apply w-[20%] mt-[-30%] z-20 relative mx-auto -rotate-12 md:mt-[-20%] lg:w-[10%] lg:mt-[-15%];
+    }
+    .testimonial-container {
+        @apply pt-20 pb-0 text-center;
+    }
+    .testimonial-container .hashtag {
+        @apply uppercase font-serif text-sm;
+    }
+    .testimonial-container .subtitle {
+        @apply lg:text-xl 2xl:text-2xl;
+    }
+    .testimonial-splide {
+        @apply py-10;
+    }
+    .testimonial-splide .testimonials {
+        @apply border rounded-xl p-10;
+    }
+    .testimonials .testimonial {
+        @apply text-2xl font-serif my-10;
+    }
+}
+@media (min-width: 1920px) {
+    .hero-section .heading {
+        @apply text-[21rem];
+    }
+    .hero-section .subheading {
+        @apply text-lg;
+    }
+    .primary-btn {
+        @apply text-2xl px-14 py-7;
+    }
+    .btn-label {
+        @apply !text-base;
+    }
+    .hero-section .title {
+        @apply text-lg;
+    }
+    .hero-section .logos {
+        @apply space-x-10;
+    }
+    .hero-section .logos img {
+        @apply h-[30px];
+    }
+    .hero-section .author {
+        @apply w-[110%] translate-x-[40%] -mt-[52%];
+    }
+    .proof-section .introduction .heading {
+        @apply text-8xl;
+    }
+    .introduction .content p {
+        @apply text-xl;
+    }
+}
