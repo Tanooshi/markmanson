@@ -16,7 +16,8 @@ module.exports = {
         sans: ['Inter', 'sans-serif'],
         serif: ['Editorial old', 'serif'],
 
-        'serif-italic': ['Editorial old italic', 'serif']
+        'serif-italic': ['Editorial old italic', 'serif'],
+        'power-regular': ['Power Grotesk', 'sans']
     }
   },
   plugins: [],

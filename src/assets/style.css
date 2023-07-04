@@ -12,7 +12,12 @@
         font-family: "Editorial old";
         src: url(../assets/fonts/ppeditorialold-regular.otf) format(opentype);
     }
+    @font-face {
+        font-family: "Power Grotesk";
+        src: url(../assets/fonts/PowerGrotesk-Black.ttf) format(truetype);
+    }
 }
+
 @layer components {
     .hero-section {
         @apply bg-primary-orange overflow-x-hidden md:p-5 md:pb-0 2xl:pt-20 2xl:px-10;
@@ -89,6 +94,107 @@
     .testimonials .testimonial {
         @apply text-2xl font-serif my-10;
     }
+    .featured-video-section {
+        @apply bg-secondary-slate-gray text-white pb-10;
+    }
+    .featured-video-section .heading {
+        @apply text-4xl font-bold pl-10 pr-20 pt-20 md:w-1/2 md:px-0 md:text-5xl md:text-center md:mx-auto lg:text-6xl xl:text-7xl xl:px-10 2xl:text-8xl 2xl:px-0;
+    }
+    .featured-video-section .subheading {
+        @apply p-10 md:w-1/2 md:px-0 md:mx-auto md:text-center 2xl:pt-20;
+    }
+    .featured-video-section .subheading p {
+        @apply mb-5 text-sm 2xl:text-xl;
+    }
+    .featured-video-section .video-container {
+        @apply h-[250px] mx-2 rounded-2xl overflow-hidden md:h-[450px] lg:h-[500px] xl:h-[600px] xl:mx-10 2xl:h-[800px];
+    }
+    .blogs-section {
+        @apply pb-10 bg-[#D9D9D9];
+    }
+    .blogs-section .heading {
+        @apply py-20 text-5xl font-bold text-center md:text-left md:pl-10 md:pr-40 lg:w-2/3 lg:text-7xl lg:mx-20 xl:text-8xl;
+    }
+    .blog-splide {
+        @apply lg:w-1/2 lg:ml-auto lg:mt-[-12%] xl:mt-[-10%] xl:w-[55%] 2xl:w-[60%] 2xl:mt-[-8%];
+    }
+    .blog-splide .blog {
+        @apply bg-secondary-slate-gray text-white p-5 h-[400px] flex flex-col justify-between;
+    }
+    .blog .title {
+        @apply font-bold text-2xl 2xl:text-3xl;
+    }
+    .blog .excerpt {
+        @apply text-xs mb-10 2xl:text-sm;
+    }
+    .blog .link {
+        @apply font-serif text-primary-orange  uppercase;
+    }
+    .blog-splide {
+        @apply relative;
+    }
+
+    .blog-splide .splide__arrows .splide__arrow--prev {
+        @apply hidden;
+    }
+    .blog-splide .splide__arrows .splide__arrow--next {
+        @apply h-[3rem] w-[3rem] p-2 md:p-4 md:h-[5rem] md:w-[5rem];
+    }
+    .footer-section {
+        @apply bg-primary-orange text-white;
+    }
+    .newsletter {
+        @apply p-10 md:w-8/12 md:mx-auto lg:w-1/2 2xl:pt-20;
+    }
+    .newsletter .heading {
+        @apply text-4xl font-serif p-5 text-center md:text-5xl md:py-10 xl:text-6xl 2xl:text-[5rem];
+    }
+    .newsletter .subheading {
+        @apply text-xs text-center md:px-10;
+    }
+    .newsletter-form {
+        @apply my-10  font-serif text-sm flex md:px-10 md:mb-5 xl:px-20 2xl:text-xl;
+    }
+    .newsletter-form .input-text {
+        @apply p-5 w-full 2xl:px-10;
+    }
+    .newsletter-form .submit-btn {
+        @apply py-5 bg-secondary-slate-gray w-20 2xl:w-32;
+    }
+    .newsletter .label {
+        @apply text-xs text-secondary-slate-gray w-10/12 text-center mx-auto md:w-8/12 2xl:text-sm;
+    }
+    .footer-section .phone-img {
+        @apply h-screen;
+        background: url("./img/img-iphone-the-subtle-art-of-not-giving-a-fck-mockup.png") no-repeat;
+        background-size: 250%;
+        background-position: 60% bottom;
+    }
+    .footer-section .author-name {
+        @apply bg-dark-gray text-secondary-slate-gray;
+    }
+    .footer-section .author-name .heading {
+        @apply font-serif-italic text-9xl md:text-[14rem] lg:text-[10.5rem] xl:text-[13.5rem] 2xl:text-[16rem];
+    }
+    .footer-section .watermark {
+        @apply text-primary-orange text-center pb-10;
+    }
+}
+@media (min-width: 768px) {
+    .footer-section .phone-img {
+        background-size: 180%;
+    }
+}
+@media (min-width: 1024px) {
+    .footer-section .phone-img {
+        height: 130vh;
+        background-size: contain;
+    }
+}
+@media (min-width: 1536px) {
+    .footer-section .phone-img {
+        height: 110vh;
+    }
 }
 @media (min-width: 1920px) {
     .hero-section .heading {
@@ -120,5 +226,59 @@
     }
     .introduction .content p {
         @apply text-xl;
+    }
+    .featured-video-section .heading {
+        @apply pt-40 text-9xl px-32 w-2/3;
+    }
+    .featured-video-section .subheading p {
+        @apply text-2xl;
+    }
+    .featured-video-section .video-container {
+        @apply h-[1000px];
+    }
+    .blogs-section .heading {
+        @apply text-9xl;
+    }
+    .blog-splide .blog {
+        @apply h-[500px] p-10;
+    }
+    .blog .title {
+        @apply text-4xl;
+    }
+    .blog .excerpt {
+        @apply text-lg;
+    }
+    .blog .link {
+        @apply text-2xl;
+    }
+    .newsletter {
+        @apply pt-40;
+    }
+    .newsletter .heading {
+        @apply text-8xl;
+    }
+    .newsletter .subheading {
+        @apply text-xl;
+    }
+    .newsletter-form {
+        @apply text-2xl;
+    }
+    .newsletter-form .input-text {
+        @apply p-10;
+    }
+    .newsletter .label {
+        @apply text-xl;
+    }
+    .newsletter-form .submit-btn {
+        @apply w-40 p-10;
+    }
+    .footer-section .phone-img {
+        height: 150vh;
+    }
+    .footer-section .author-name .heading {
+        @apply text-[20rem];
+    }
+    .footer-section .watermark {
+        @apply text-2xl;
     }
 }

@@ -65,7 +65,7 @@
                     </div>
                 </Splide>
             </div>
-            <div class="mb-10">
+            <div class="pb-10">
                 <button class="primary-btn">Available on amazon</button>
                 <p class="text-[0.7rem] mt-3 btn-label">4.6 out of 5 with 136, 838 ratings</p>
 
