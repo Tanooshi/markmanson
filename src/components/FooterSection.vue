@@ -1,6 +1,6 @@
 <template>
-    <div class="footer-section">
-        <div class="newsletter">
+    <div class="footer-section relative">
+        <div class="newsletter sticky top-0 ">
             <h2 class="heading">5 Minutes Each Week That Could Change Your Life</h2>
             <p class="subheading">
                 Enter your email address below to sign up for my free newsletter, <u>The Breakthrough</u> . Each week,
@@ -13,8 +13,8 @@
             </form>
             <div class="label">Over 4,000 incredible individuals who've unlocked life-altering breakthroughs</div>
         </div>
-        <div class="phone-img"></div>
-        <div class="author-name overflow-hidden">
+        <div class="phone-img relative z-[100]"></div>
+        <div class="author-name overflow-hidden relative z-[100]">
             <h1 class="heading   ">Mark Manson
             </h1>
             <p class="watermark">Made with <span class="font-serif-italic">swag</span> by <span

@@ -34,6 +34,12 @@
     .primary-btn {
         @apply bg-white font-serif text-secondary-slate-gray font-bold uppercase px-10 py-5 text-center;
     }
+    .primary-btn:hover {
+        box-shadow: -0.3em 0.3em 0 0 black;
+        transform: translateY(-0.25em);
+        transition: all ease-in-out;
+        transition-duration: 200ms;
+    }
     .hero-section .logos {
         @apply flex space-x-4 md:flex-wrap justify-around px-10 py-4 md:p-0 md:justify-start md:space-y-3 md:items-baseline 2xl:space-x-5;
     }
@@ -156,7 +162,7 @@
         @apply my-10  font-serif text-sm flex md:px-10 md:mb-5 xl:px-20 2xl:text-xl;
     }
     .newsletter-form .input-text {
-        @apply p-5 w-full 2xl:px-10;
+        @apply p-5 w-full 2xl:px-10 text-secondary-slate-gray;
     }
     .newsletter-form .submit-btn {
         @apply py-5 bg-secondary-slate-gray w-20 2xl:w-32;
@@ -166,7 +172,8 @@
     }
     .footer-section .phone-img {
         @apply h-screen;
-        background: url("./img/img-iphone-the-subtle-art-of-not-giving-a-fck-mockup.png") no-repeat;
+        background: url("./img/img-iphone-the-subtle-art-of-not-giving-a-fck-mockup.png") no-repeat,
+            linear-gradient(180deg, rgba(242, 104, 32, 0) 0%, rgba(242, 104, 32, 1) 18%, rgba(242, 104, 32, 1) 100%);
         background-size: 250%;
         background-position: 60% bottom;
     }
