@@ -2,13 +2,13 @@
     {
         "name": "Aria Ursa",
         "stars": 5,
-        "img": "img-aria-ursa.jpg",
+        "img": "https://ik.imagekit.io/o3zau3i2w/markmanson/proof/img-aria-ursa.webp?updatedAt=1688882140075",
         "testimonial": "This book was exactly the wake up call I needed..."
     },
     {
         "name": "Ignacio Zamora",
         "stars": 5,
-        "img": "img-ignation-zamora.jpg",
+        "img": "https://ik.imagekit.io/o3zau3i2w/markmanson/proof/img-ignation-zamora.webp?updatedAt=1688882139980",
 
         "testimonial": "I laughed and almost cried a bit at points, due to the very well written and deep life experience anecdotes"
 
@@ -16,7 +16,7 @@
     {
         "name": "Jessica Foster",
         "stars": 5,
-        "img": "img-jessica-foster.jpg",
+        "img": "https://ik.imagekit.io/o3zau3i2w/markmanson/proof/img-jessica-foster.webp?updatedAt=1688882140172",
         
         "testimonial": "I enjoyed the blunt delivery and allusions..."
 
@@ -24,7 +24,7 @@
     {
         "name": "Ron",
         "stars": 5,
-        "img": "img-ron.jpg",
+        "img": "https://ik.imagekit.io/o3zau3i2w/markmanson/proof/img-ron.webp?updatedAt=1688882139938",
 
         "testimonial": "Everyone should read this book. Its got some language, but the message is excellent."
 

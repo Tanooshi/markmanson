@@ -18,7 +18,8 @@
             <h1 class="heading   ">Mark Manson
             </h1>
             <p class="watermark">Made with <span class="font-serif-italic">swag</span> by <span
-                    class="font-power-regular">tanooshi</span></p>
+                    class="font-power-regular"><a href="https://tanooshi.github.io/" target="_blank">tanooshi</a> </span>
+            </p>
         </div>
     </div>
 </template>

@@ -24,16 +24,23 @@
         <div class="companies md:px-10 text-center md:text-left">
             <p class="title">As Seen On</p>
             <div class="logos">
-                <img src="../assets/img/logo/logo-the-newyork-times.svg" alt="">
-                <img src="../assets/img/logo/logo-forbes.svg" alt="">
-                <img class="md:!ml-0" src="../assets/img/logo/logo-cnn.svg" alt="">
-                <img src="../assets/img/logo/logo-vice.svg" alt="">
-                <img src="../assets/img/logo/logo-time.svg" alt="">
+                <img src="https://ik.imagekit.io/o3zau3i2w/markmanson/logo/logo-the-newyork-times.webp?updatedAt=1688882097615"
+                    alt="New York Times logo" height="20px" width="150px">
+                <img src="https://ik.imagekit.io/o3zau3i2w/markmanson/logo/logo-forbes.webp?updatedAt=1688882097612"
+                    alt="Forbes logo" height="29px" width="115px">
+                <img class="md:!ml-0 lg:!ml-3"
+                    src="https://ik.imagekit.io/o3zau3i2w/markmanson/logo/logo-cnn.webp?updatedAt=1688882098174"
+                    alt="CNN logo" width="58px" height="29px">
+                <img src="https://ik.imagekit.io/o3zau3i2w/markmanson/logo/logo-vice.webp?updatedAt=1688882097777"
+                    alt="Vice logo" width="92px" height="29px">
+                <img src="https://ik.imagekit.io/o3zau3i2w/markmanson/logo/logo-time.webp?updatedAt=1688882097534"
+                    alt="Time logo" width="101px" height="27px">
             </div>
 
         </div>
         <div class="author">
-            <img src="../assets/img/img-mark-manson-gray-shirt.png" alt="">
+            <img src="https://ik.imagekit.io/o3zau3i2w/markmanson/display/img-mark-manson-gray-shirt.webp?updatedAt=1688882098058"
+                alt="Mark Manson" width="1001px" height="1010px">
         </div>
 
 

@@ -29,8 +29,9 @@
                 </div>
             </Splide>
             <div class="img-float">
-                <img class="img-book" src="../assets/img/proof/img-the-subtle-art-of-not-giving-a-fck-book-cover.png"
-                    alt="">
+                <img class="img-book"
+                    src="https://ik.imagekit.io/o3zau3i2w/markmanson/proof/img-the-subtle-art-of-not-giving-a-fck-book-cover.webp?updatedAt=1688882140253"
+                    alt="The subtle art of not giving a fuck book" height="736px" width="478px">
             </div>
         </div>
         <div class="testimonial-container">
@@ -51,13 +52,22 @@
                                         </svg>
                                     </div>
                                     <p class="testimonial">{{ testimonial.testimonial }}</p>
-                                    <img class="h-10 mx-auto rounded-full"
-                                        :src="require(`../assets/img/proof/${testimonial.img}`)" alt="">
+                                    <img class="h-10 mx-auto rounded-full" height="50px" width="50px" :src="testimonial.img"
+                                        :alt="testimonial.name">
 
                                     <p class="company">{{ testimonial.name }}</p>
                                     <div class="flex justify-center">
-                                        <img v-for=" n  in  testimonial.stars " :key="n" class="star "
-                                            src="../assets/svg/icon-rating.svg">
+
+                                        <span v-for="n in testimonial.stars" :key="n" class="star ">
+                                            <svg width="11" height="9" viewBox="0 0 11 9" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M4.01395 1.81183C4.55457 0.445103 6.48891 0.445104 7.02953 1.81183L7.0755 1.92806C7.29247 2.47657 7.82247 2.83688 8.41233 2.83688H8.9011C10.2241 2.83688 10.7048 4.58048 9.56878 5.25848C9.0203 5.58581 8.79001 6.2625 9.02495 6.85645L9.04686 6.91185C9.52895 8.13063 8.19209 9.26744 7.06662 8.59575L6.36735 8.17842C5.84646 7.86756 5.19701 7.86756 4.67613 8.17842L3.97685 8.59575C2.85139 9.26744 1.51452 8.13063 1.99662 6.91185L2.01853 6.85645C2.25347 6.2625 2.02318 5.58581 1.4747 5.25848C0.338646 4.58048 0.819388 2.83688 2.14238 2.83688H2.63115C3.22101 2.83688 3.75101 2.47657 3.96798 1.92806L4.01395 1.81183Z"
+                                                    fill="#F26822" />
+                                            </svg>
+
+
+                                        </span>
                                     </div>
                                 </div>
                             </SplideSlide>

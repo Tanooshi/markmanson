@@ -24,7 +24,8 @@
                         Prev
                     </button>
                     <button class="splide__arrow splide__arrow--next  bg-primary-orange">
-                        <img src="../assets/img/arrow.png" alt="">
+                        <img src="https://ik.imagekit.io/o3zau3i2w/markmanson/display/arrow.webp?updatedAt=1688882098052"
+                            alt="arrow next">
 
                     </button>
                 </div>
@@ -35,7 +36,7 @@
                                 <p class="title">{{ blog.title }}</p>
                                 <div>
                                     <p class="excerpt">{{ blog.excerpt }}</p>
-                                    <a class="link" :href="blog.link" target="_blank">Read More</a>
+                                    <a class="link" :href="blog.link" target="_blank">Read blog</a>
                                 </div>
 
 
