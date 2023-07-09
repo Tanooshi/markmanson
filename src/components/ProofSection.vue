@@ -52,7 +52,7 @@
                                         </svg>
                                     </div>
                                     <p class="testimonial">{{ testimonial.testimonial }}</p>
-                                    <img class="h-10 mx-auto rounded-full" height="50px" width="50px" :src="testimonial.img"
+                                    <img class="h-[50px] w-[50px] mx-auto rounded-full" :src="testimonial.img"
                                         :alt="testimonial.name">
 
                                     <p class="company">{{ testimonial.name }}</p>
