@@ -4,7 +4,7 @@
     <ProofSection />
     <FeaturedSection />
     <BlogsSection />
-    <FooterSection />
+    <FooterSection id="footer" />
   </div>
 </template>
 

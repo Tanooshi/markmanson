@@ -76,7 +76,10 @@
                 </Splide>
             </div>
             <div class="pb-10">
-                <button class="primary-btn">Available on amazon</button>
+                <a href="https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive/dp/0062457713/ref=cm_cr_arp_d_product_top?ie=UTF8"
+                    target="_blank">
+                    <button class="primary-btn">Available on amazon</button></a>
+
                 <p class="text-[0.7rem] mt-3 btn-label">4.6 out of 5 with 136, 838 ratings</p>
 
             </div>

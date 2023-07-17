@@ -15,7 +15,8 @@
                 saved their life. Read and decide for yourself.
             </p>
             <div class="text-center mb-10">
-                <button class="primary-btn">Subscribe to Newsletter</button>
+                <a href="/#footer"><button class="primary-btn">Subscribe to Newsletter</button></a>
+
                 <p class="text-[0.7rem] mt-3 btn-label">Join 1,000,000+ people have had breakthroughs so far.</p>
 
             </div>
